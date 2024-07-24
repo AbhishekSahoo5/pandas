@@ -77,3 +77,20 @@ It defined as a 1D array that is capable of storing various data types.
 import pandas as pd
 a=pd.Series()
 print(a)
+
+DataFrame
+---------
+It defined as a 2D array that is capable of storing various data types.
+
+import pandas as pd
+a=pd.DataFrame()
+print(a)
+
+
+
+Difference Between CSV and XLS(excel) file formats:
+-------------------------------------------------------
+
+--> CSV format is a plain text format in which values are separated by commas(Comma Separated Values).
+
+--. XLS fle format is an Excel Sheets binary file format which holds information about all the worksheets in a file, including both content and Formatting
